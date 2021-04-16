@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.title-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.title {
+    border: 1px solid black;
+    display: inline;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 33.33%;
+    /* border: 2px solid green; */
+    margin: 20px 15px;
+}
+
+.paragraph {
+    padding: 10px 10px;
+}
