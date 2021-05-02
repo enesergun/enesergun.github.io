@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header-container {
+    text-align: center;
+    vertical-align: center;
+}
+
+.main-content-header,
+h3{
+    text-align: center;
+}
+
+#home-tiles {
+    max-width: 1140px;
+}
+.menu-tile {
+    background-color: gray;
+    padding: 20px 10px;
+    margin: 10px;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+}
+    /* End Header */
