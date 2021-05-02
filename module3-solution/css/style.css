@@ -13,10 +13,14 @@ h3{
     text-align: center;
 }
 
+#home-tiles {
+    max-width: 1140px;
+}
+
 .menu-tile {
     background-color: gray;
     padding: 20px 10px;
-    margin: 10px;
+    margin: 15px 0;
 }
 .navbar-header button.navbar-toggle {
     clear: both;
