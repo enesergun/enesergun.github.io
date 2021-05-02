@@ -19,7 +19,7 @@ h3{
 .menu-tile {
     background-color: gray;
     padding: 20px 10px;
-    margin: 10px;
+    margin-bottom: 15px;
 }
 .navbar-header button.navbar-toggle {
     clear: both;
